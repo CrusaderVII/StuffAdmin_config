@@ -5,3 +5,12 @@ eureka:
 
 test:
   prop: lol
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/stuffadmin
+    username: postgres
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
