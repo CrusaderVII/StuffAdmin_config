@@ -1,0 +1,20 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/stuffadmin_recruiting
+    username: postgres
+    password: password
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update

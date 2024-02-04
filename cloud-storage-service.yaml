@@ -5,7 +5,7 @@ eureka:
 
 server:
   port: 8085
-  
+
 cloud:
   aws:
     credentials:
