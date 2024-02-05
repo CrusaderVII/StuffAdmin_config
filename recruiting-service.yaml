@@ -5,3 +5,16 @@ eureka:
 
 server:
   port: 8081
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    platform: postgres
+    url: jdbc:postgresql://database-recruiting:5433/stuffadmin_recruit
+    username: postgres
+    password: password
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
